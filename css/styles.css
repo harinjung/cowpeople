@@ -1,0 +1,250 @@
+* {
+    text-align: center;
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+body{
+    background: url("https://static1.squarespace.com/static/5a4c3f8ef9a61ee24e4f8b6d/t/5a5a8241f9619a6735ba7ef8/favicon.ico");
+}
+
+h1.title{
+    font-family: 'Pacifico', cursive;
+    color: #f44336;
+    text-align: center;
+}
+
+#michaels-logo{
+    max-width: 100%;
+    height: 4em;
+    margin-bottom: 0;
+}
+
+textarea{
+    height: 100%;
+    width: 95%;
+}
+
+.andres-text-area, #script-variables {
+    font-family: Consolas;
+    color: cornflowerblue;
+
+}
+
+div.item{
+    display: inline;
+}
+
+label {
+    width: 300px;
+    display: inline-block;
+}
+
+select{
+    margin-left: 10px;
+}
+
+li span span {
+    color: darkred;
+    font-weight: bold;
+}
+span.param-li-style{
+
+}
+label:hover{
+    color: green;
+    font-size: 18px;
+}
+
+button.my-btn-class {
+    background-color: deepskyblue;
+}
+
+div.link-input{
+    margin-top: 50px;
+}
+#link-box{
+    max-width: 450px;
+}
+
+ul, li {
+    list-style-type : none;
+}
+
+button{
+    background-color: deepskyblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+
+button:hover{
+    outline-color: blue;
+    color: crimson;
+}
+
+button:active {
+    background-color: dodgerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+label.enter-link{
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+#display-base-query{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+button#change-link {
+    display: inline-block;
+    float: right;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* Style the close button */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Style the header */
+.header {
+
+
+
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    float: left;
+    font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+#myInput{
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+link#link-input {
+    display: flex;
+    flex-direction: row;
+}
+
+
+hr{
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    color: green;
+}
+
+textarea {
+    overflow: auto;
+}
